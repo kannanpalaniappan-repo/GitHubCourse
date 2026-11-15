@@ -2,5 +2,9 @@ package pages;
 
 public class loginPage {
 
-    String name = "Kannan";
+    static  String name = "Kannan";
+
+    static void main() {
+        System.out.println(name);
+    }
 }
